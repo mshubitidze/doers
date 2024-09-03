@@ -1,16 +1,19 @@
 "use client";
 
 import * as React from "react";
-import Link, { type LinkProps } from "next/link";
-import { useRouter } from "next/navigation";
+import type { LinkProps } from "next/link";
 
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { Icons } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { useTranslations } from "next-intl";
+import { Link, usePathname, useRouter } from "@/i18n/routing";
 
 export function MobileNav() {
+  const t = useTranslations("Header");
+  const pathname = usePathname();
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -61,6 +64,50 @@ export function MobileNav() {
           <Icons.logo className="mr-2 h-4 w-4" />
           <span className="font-bold">{siteConfig.name}</span>
         </MobileLink>
+        <nav className="flex flex-col gap-4 text-sm lg:gap-6 mt-10">
+          <MobileLink
+            href="#hero"
+            className={cn(
+              "transition-colors hover:text-foreground/80",
+              pathname === "/" ? "text-foreground" : "text-foreground/60",
+            )}
+          >
+            {t("menu.home")}
+          </MobileLink>
+          <MobileLink
+            href="#about"
+            className={cn(
+              "transition-colors hover:text-foreground/80",
+              pathname?.startsWith("/#about")
+                ? "text-foreground"
+                : "text-foreground/60",
+            )}
+          >
+            {t("menu.about")}
+          </MobileLink>
+          <MobileLink
+            href="#team"
+            className={cn(
+              "transition-colors hover:text-foreground/80",
+              pathname?.startsWith("/#team")
+                ? "text-foreground"
+                : "text-foreground/60",
+            )}
+          >
+            {t("menu.team")}
+          </MobileLink>
+          <MobileLink
+            href="#registration"
+            className={cn(
+              "transition-colors hover:text-foreground/80",
+              pathname?.startsWith("/#registration")
+                ? "text-foreground"
+                : "text-foreground/60",
+            )}
+          >
+            {t("menu.registration")}
+          </MobileLink>
+        </nav>
       </SheetContent>
     </Sheet>
   );
@@ -77,6 +124,7 @@ function MobileLink({
   onOpenChange,
   className,
   children,
+  locale,
   ...props
 }: MobileLinkProps) {
   const router = useRouter();

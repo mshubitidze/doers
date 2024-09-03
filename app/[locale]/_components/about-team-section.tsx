@@ -25,7 +25,16 @@ export function AboutTeamSection() {
         x={-1}
         y={-1}
         className={cn(
-          "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] ",
+          "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] hidden",
+        )}
+      />
+      <GridPattern
+        width={35}
+        height={35}
+        x={-1}
+        y={-1}
+        className={cn(
+          "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] md:hidden",
         )}
       />
       <div className="flex flex-col gap-40 mt-20 mb-40 container mx-auto max-w-5xl">
