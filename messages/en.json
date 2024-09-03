@@ -1,0 +1,93 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "Where Actions Speak Louder",
+      "buttonLabel": "Get started"
+    },
+    "about": {
+      "title": "About",
+      "description": "At Doer, we mentor early-career professionals—software developers, designers, project managers, and QA specialists—through real projects for free, helping them grow their skills and confidence to advance in their careers."
+    },
+    "teamCollaboration": {
+      "title": "Team Collaboration",
+      "description": "As a doer, you will join a team working on real projects, gaining hands-on experience and contributing to impactful work."
+    },
+    "meetOurTeam": {
+      "title": "Meet our Team",
+      "members": {
+        "0": {
+          "id": "9f9c2bf4-27df-47a3-b8a8-5b689a1c6d3d",
+          "name": "John Doe",
+          "role": "Senior Software Engineer",
+          "image": "https://images.pexels.com/photos/1649675/pexels-photo-1649675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "bio": "A passionate developer with over 10 years of experience in web technologies.",
+          "social": {
+            "github": "johndoe",
+            "linkedin": "johndoe",
+            "twitter": "johndoe"
+          }
+        },
+        "1": {
+          "id": "4f7c2ae9-36b5-44f3-bb36-c1c927a7a8f7",
+          "name": "Jane Smith",
+          "role": "Product Manager",
+          "image": "https://images.pexels.com/photos/13995911/pexels-photo-13995911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "bio": "Skilled in product management with a strong background in UX/UI design.",
+          "social": {
+            "github": "janesmith",
+            "linkedin": "janesmith",
+            "twitter": "janesmith"
+          }
+        },
+        "2": {
+          "id": "8e9a3d9b-56af-4c5f-9d8b-0f7a5f6d5a9c",
+          "name": "Alice Johnson",
+          "role": "Data Scientist",
+          "image": "https://images.pexels.com/photos/10360933/pexels-photo-10360933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "bio": "Expert in machine learning and data analysis with a passion for turning data into actionable insights.",
+          "social": {
+            "github": "alicejohnson",
+            "linkedin": "alicejohnson",
+            "twitter": "alicejohnson"
+          }
+        },
+        "3": {
+          "id": "4f7c2aeasda9-36b5-44f3-bb36-c1c927a7a8f7",
+          "name": "Jane Smith",
+          "role": "Product Manager",
+          "image": "https://images.pexels.com/photos/3996756/pexels-photo-3996756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "bio": "Skilled in product management with a strong background in UX/UI design.",
+          "social": {
+            "github": "janesmith",
+            "linkedin": "janesmith",
+            "twitter": "janesmith"
+          }
+        },
+        "4": {
+          "id": "8e9sdasa3d9b-56af-4c5f-9d8b-0f7a5f6d5a9c",
+          "name": "Alice Johnson",
+          "role": "Data Scientist",
+          "image": "https://images.pexels.com/photos/10540745/pexels-photo-10540745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "bio": "Expert in machine learning and data analysis with a passion for turning data into actionable insights.",
+          "social": {
+            "github": "alicejohnson",
+            "linkedin": "alicejohnson",
+            "twitter": "alicejohnson"
+          }
+        }
+      }
+    }
+  },
+  "Header": {
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "team": "Team",
+      "registration": "Registration"
+    }
+  },
+  "Opengraph": {
+    "title": "Doers",
+    "description": "Where Actions Speak Louder"
+  }
+}
