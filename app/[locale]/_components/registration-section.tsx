@@ -25,10 +25,12 @@ export function RegistrationSection() {
       <section id="registration" className="sm:px-24 sm:pt-8 sm:pb-16">
         <Card className="w-full border-none rounded-none bg-transparent shadow-none">
           <CardHeader className="text-center sm:mb-12">
-            <CardTitle className="text-4xl font-bold mb-2">
+            <CardTitle className="text-5xl font-bold mb-2">
               {t("registration.title")}
             </CardTitle>
-            <CardDescription>{t("registration.subtitle")}</CardDescription>
+            <CardDescription className="text-lg">
+              {t("registration.subtitle")}
+            </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col md:flex-row gap-8">
             <div className="flex-1">
@@ -49,8 +51,8 @@ export function RegistrationSection() {
                     >
                       <div className="w-2 h-2 bg-purple-500 rounded-full mt-2" />
                       <div>
-                        <span className="font-medium">{step.title}</span>
-                        <p className="mt-1 text-sm">{step.description}</p>
+                        <span className="font-semibold">{step.title}</span>
+                        <p className="mt-1">{step.description}</p>
                       </div>
                     </li>
                   ))}
