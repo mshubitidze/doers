@@ -66,7 +66,7 @@ export function MobileNav() {
         </MobileLink>
         <nav className="flex flex-col gap-4 text-sm lg:gap-6 mt-10">
           <MobileLink
-            href="#hero"
+            href="#home"
             className={cn(
               "transition-colors hover:text-foreground/80",
               pathname === "/" ? "text-foreground" : "text-foreground/60",

@@ -30,7 +30,7 @@ const motionVariants = {
 export function TeamSection() {
   const t = useTranslations("HomePage");
 
-  const teamMembers = ["0", "1", "2", "3", "4"].map((id) => {
+  const teamMembers = ["1", "2", "3", "4", "5"].map((id) => {
     return {
       id: t(`meetOurTeam.members.${id}.id`),
       name: t(`meetOurTeam.members.${id}.name`),
@@ -50,7 +50,7 @@ export function TeamSection() {
   >(null);
 
   return (
-    <section id="team" className="max-w-7xl mx-auto container">
+    <section id="team" className="max-w-7xl mx-auto container mb-20">
       <InView
         viewOptions={{ once: true, margin: "0px 0px -250px 0px" }}
         variants={{

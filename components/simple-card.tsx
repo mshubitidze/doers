@@ -28,7 +28,7 @@ export function LineContainer({ children }: { children: React.ReactNode }) {
   return (
     <div className="">
       <Container>
-        <div className="px-40 py-20 w-full center">{children}</div>
+        <div className="w-full center">{children}</div>
       </Container>
     </div>
   );

@@ -1,5 +1,6 @@
 import GridPattern from "@/components/grid-pattern";
 import { InView } from "@/components/in-view";
+import { TransitionPanelSection } from "@/components/transition-panel-section";
 import { MotionSection } from "@/lib/framer-motion";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
@@ -65,15 +66,21 @@ export function AboutTeamSection() {
         >
           <MotionSection
             id="team-collaboration"
-            className="flex flex-col gap-14 scroll-m-20"
             variants={defaultVariants}
+            transition={{
+              duration: 0.8,
+              delay: 0.2,
+            }}
           >
-            <h2 className="text-center text-5xl font-bold">
-              {t("teamCollaboration.title")}
-            </h2>
-            <p className="text-center text-3xl">
-              {t("teamCollaboration.description")}
-            </p>
+            <TransitionPanelSection
+              features={["1", "2", "3"].map((n) => {
+                const feature = {
+                  title: t(`features.${n}.title`),
+                  description: t(`features.${n}.description`),
+                };
+                return feature;
+              })}
+            />
           </MotionSection>
         </InView>
       </div>

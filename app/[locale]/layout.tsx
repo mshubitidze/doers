@@ -47,10 +47,10 @@ export default async function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background antialiased",
-          glKupiura.className,
+          // glKupiura.className,
           GeistMono.variable,
           GeistSans.variable,
-          "font-sans",
+          "font-mono",
         )}
       >
         <NextIntlClientProvider messages={messages}>

@@ -8,14 +8,24 @@
       "title": "About",
       "description": "At Doer, we mentor early-career professionals—software developers, designers, project managers, and QA specialists—through real projects for free, helping them grow their skills and confidence to advance in their careers."
     },
-    "teamCollaboration": {
-      "title": "Team Collaboration",
-      "description": "As a doer, you will join a team working on real projects, gaining hands-on experience and contributing to impactful work."
+    "features": {
+      "1": {
+        "title": "Team Collaboration",
+        "description": "As a doer, you will join a team working on real projects, gaining hands-on experience and contributing to impactful work."
+      },
+      "2": {
+        "title": "Upskilling Tech Profession",
+        "description": "As a doer, you'll receive expert mentorship to enhance your skills and become a top candidate for leading companies."
+      },
+      "3": {
+        "title": "Community Opportunities",
+        "description": "As a doer, you will dive into a dynamic tech community that unlocks exciting growth and career opportunities."
+      }
     },
     "meetOurTeam": {
       "title": "Meet our Team",
       "members": {
-        "0": {
+        "1": {
           "id": "9f9c2bf4-27df-47a3-b8a8-5b689a1c6d3d",
           "name": "Tornike Ramazashvili",
           "role": "Co-Founder and Technical Lead",
@@ -27,7 +37,7 @@
             "twitter": "johndoe"
           }
         },
-        "1": {
+        "2": {
           "id": "4f7c2ae9-36b5-44f3-bb36-c1c927a7a8f7",
 
           "name": "Mariam Getsadze",
@@ -40,7 +50,7 @@
             "twitter": "janesmith"
           }
         },
-        "2": {
+        "3": {
           "id": "8e9a3d9b-56af-4c5f-9d8b-0f7a5f6d5a9c",
           "name": "Luka Chubinidze",
           "role": "Co-Founder and Front-End Lead",
@@ -52,7 +62,7 @@
             "twitter": "alicejohnson"
           }
         },
-        "3": {
+        "4": {
           "id": "4f7c2aeasda9-36b5-44f3-bb36-c1c927a7a8f7",
           "name": "Irakli Pankvelashvili",
           "role": "Co-Founder and Back-End Lead",
@@ -64,7 +74,7 @@
             "twitter": "janesmith"
           }
         },
-        "4": {
+        "5": {
           "id": "8e9sdasa3d9b-56af-4c5f-9d8b-0f7a5f6d5a9c",
           "name": "Nutsa Chichilidze",
           "role": "Co-Founder and UI/UX Lead",
@@ -75,6 +85,30 @@
             "linkedin": "alicejohnson",
             "twitter": "alicejohnson"
           }
+        }
+      }
+    },
+    "registration": {
+      "title": "Registration",
+      "subtitle": "Take your step and become a doer!",
+      "steps": {
+        "title": "Registration is limited!",
+        "subtitle": "Please note the steps below:",
+        "1": {
+          "title": "Register",
+          "description": "Fill out the form on the right side and wait for our message."
+        },
+        "2": {
+          "title": "Interview",
+          "description": "The first 60 registrants will be invited for an individual interview."
+        },
+        "3": {
+          "title": "Task",
+          "description": "Complete an assigned task to demonstrate your skills."
+        },
+        "4": {
+          "title": "Join",
+          "description": "From the 60 interviewed, only 30 will be selected for the first intake."
         }
       }
     }
