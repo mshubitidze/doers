@@ -27,11 +27,11 @@ export function HeroSection() {
           per="word"
           as="h3"
           preset="slide"
-          className="sm:text-7xl font-bold z-50 text-4xl text-center"
+          className="sm:text-7xl font-bold z-10 text-4xl text-center"
         >
           {t("hero.title")}
         </TextEffect>
-        <Link className={cn(buttonVariants(), "z-50")} href="#about">
+        <Link className={cn(buttonVariants(), "z-10")} href="#about">
           {t("hero.buttonLabel")}
         </Link>
       </div>

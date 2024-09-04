@@ -103,7 +103,7 @@ export function TeamSection() {
                 <AnimatePresence>
                   {hoveredMemberId === member.id && (
                     <motion.div
-                      className="p-4 flex flex-col justify-end bg-background/50 backdrop-blur-md rounded-2xl w-full gap-2.5"
+                      className="p-4 flex flex-col justify-end bg-background/50 backdrop-blur-md rounded-2xl w-full gap-4"
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}

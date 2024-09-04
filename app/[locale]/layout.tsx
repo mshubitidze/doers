@@ -23,19 +23,9 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     openGraph: {
-      type: "website",
-      locale: locale,
-      url: "https://doers.dev",
       title: t("title"),
       description: t("description"),
-      images: [
-        {
-          url: "https://doers.dev/og.png",
-          width: 1200,
-          height: 630,
-          alt: t("title"),
-        },
-      ],
+      images: `/${locale}/og`,
     },
   };
 }
