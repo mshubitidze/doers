@@ -17,8 +17,8 @@
       "members": {
         "0": {
           "id": "9f9c2bf4-27df-47a3-b8a8-5b689a1c6d3d",
-          "name": "John Doe",
-          "role": "Senior Software Engineer",
+          "name": "Tornike Ramazashvili",
+          "role": "Co-Founder and Technical Lead",
           "image": "https://images.pexels.com/photos/1649675/pexels-photo-1649675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
           "bio": "A passionate developer with over 10 years of experience in web technologies.",
           "social": {
@@ -29,8 +29,9 @@
         },
         "1": {
           "id": "4f7c2ae9-36b5-44f3-bb36-c1c927a7a8f7",
-          "name": "Jane Smith",
-          "role": "Product Manager",
+
+          "name": "Mariam Getsadze",
+          "role": "Co-Founder and PM Lead",
           "image": "https://images.pexels.com/photos/13995911/pexels-photo-13995911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
           "bio": "Skilled in product management with a strong background in UX/UI design.",
           "social": {
@@ -41,8 +42,8 @@
         },
         "2": {
           "id": "8e9a3d9b-56af-4c5f-9d8b-0f7a5f6d5a9c",
-          "name": "Alice Johnson",
-          "role": "Data Scientist",
+          "name": "Luka Chubinidze",
+          "role": "Co-Founder and Front-End Lead",
           "image": "https://images.pexels.com/photos/10360933/pexels-photo-10360933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
           "bio": "Expert in machine learning and data analysis with a passion for turning data into actionable insights.",
           "social": {
@@ -53,8 +54,8 @@
         },
         "3": {
           "id": "4f7c2aeasda9-36b5-44f3-bb36-c1c927a7a8f7",
-          "name": "Jane Smith",
-          "role": "Product Manager",
+          "name": "Irakli Pankvelashvili",
+          "role": "Co-Founder and Back-End Lead",
           "image": "https://images.pexels.com/photos/3996756/pexels-photo-3996756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
           "bio": "Skilled in product management with a strong background in UX/UI design.",
           "social": {
@@ -65,8 +66,8 @@
         },
         "4": {
           "id": "8e9sdasa3d9b-56af-4c5f-9d8b-0f7a5f6d5a9c",
-          "name": "Alice Johnson",
-          "role": "Data Scientist",
+          "name": "Nutsa Chichilidze",
+          "role": "Co-Founder and UI/UX Lead",
           "image": "https://images.pexels.com/photos/10540745/pexels-photo-10540745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
           "bio": "Expert in machine learning and data analysis with a passion for turning data into actionable insights.",
           "social": {
@@ -87,7 +88,7 @@
     }
   },
   "Opengraph": {
-    "title": "Doers",
+    "title": "Doer",
     "description": "Where Actions Speak Louder"
   }
 }

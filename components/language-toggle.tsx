@@ -12,15 +12,13 @@ export function LanguageToggle() {
   const pathname = usePathname();
 
   return (
-    <div>
-      <Link
-        className={cn(buttonVariants({ variant: "ghost" }))}
-        href={pathname}
-        locale={destination}
-      >
-        <GlobeIcon className="w-4 h-4 mr-1" />
-        {destination === "ka" ? "ქარ" : "EN"}
-      </Link>
-    </div>
+    <Link
+      className={cn(buttonVariants({ variant: "ghost" }), "min-w-20")}
+      href={pathname}
+      locale={destination}
+    >
+      <GlobeIcon className="w-4 h-4 mr-1" />
+      {destination === "ka" ? "ქარ" : "EN"}
+    </Link>
   );
 }

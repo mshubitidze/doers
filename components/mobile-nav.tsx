@@ -71,6 +71,7 @@ export function MobileNav() {
               "transition-colors hover:text-foreground/80",
               pathname === "/" ? "text-foreground" : "text-foreground/60",
             )}
+            onOpenChange={setOpen}
           >
             {t("menu.home")}
           </MobileLink>
@@ -82,6 +83,7 @@ export function MobileNav() {
                 ? "text-foreground"
                 : "text-foreground/60",
             )}
+            onOpenChange={setOpen}
           >
             {t("menu.about")}
           </MobileLink>
@@ -93,6 +95,7 @@ export function MobileNav() {
                 ? "text-foreground"
                 : "text-foreground/60",
             )}
+            onOpenChange={setOpen}
           >
             {t("menu.team")}
           </MobileLink>
@@ -104,6 +107,7 @@ export function MobileNav() {
                 ? "text-foreground"
                 : "text-foreground/60",
             )}
+            onOpenChange={setOpen}
           >
             {t("menu.registration")}
           </MobileLink>

@@ -17,11 +17,11 @@ export async function GET(
 
   const opengraph = {
     ka: {
-      title: "Doers",
+      title: "Doer",
       description: "სადაც ქმედებები უფრო მრავლისმთქმელია",
     },
     en: {
-      title: "Doers",
+      title: "Doer",
       description: "Where Actions Speak Louder",
     },
   } as const;
@@ -51,3 +51,7 @@ export async function GET(
     },
   );
 }
+
+export const dynamicParams = true;
+export const dynamic = "force-static";
+export const revalidate = 86400;

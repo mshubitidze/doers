@@ -7,19 +7,21 @@ import { SiteHeader } from "@/components/site-header";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 import { ThemeProvider } from "@/components/theme-provider";
 import { routing } from "@/i18n/routing";
-import { cn } from "@/lib/utils";
+import { cn, getBaseUrl } from "@/lib/utils";
 import { NextIntlClientProvider } from "next-intl";
 import {
   getMessages,
   getTranslations,
   unstable_setRequestLocale,
 } from "next-intl/server";
+import { glKupiura } from "../font";
 
 export async function generateMetadata({
   params: { locale },
 }: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations("Opengraph");
   return {
+    metadataBase: new URL(getBaseUrl()),
     title: t("title"),
     description: t("description"),
     openGraph: {
@@ -45,6 +47,7 @@ export default async function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background antialiased",
+          glKupiura.className,
           GeistMono.variable,
           GeistSans.variable,
           "font-sans",

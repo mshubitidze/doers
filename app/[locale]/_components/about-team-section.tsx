@@ -25,7 +25,7 @@ export function AboutTeamSection() {
         x={-1}
         y={-1}
         className={cn(
-          "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] hidden",
+          "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] hidden md:block",
         )}
       />
       <GridPattern
@@ -56,7 +56,7 @@ export function AboutTeamSection() {
             <h2 className="text-center text-5xl font-bold">
               {t("about.title")}
             </h2>
-            <p className="text-center text-2xl">{t("about.description")}</p>
+            <p className="text-center text-3xl">{t("about.description")}</p>
           </MotionSection>
         </InView>
         <InView
@@ -71,7 +71,7 @@ export function AboutTeamSection() {
             <h2 className="text-center text-5xl font-bold">
               {t("teamCollaboration.title")}
             </h2>
-            <p className="text-center text-2xl">
+            <p className="text-center text-3xl">
               {t("teamCollaboration.description")}
             </p>
           </MotionSection>
